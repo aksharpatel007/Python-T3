@@ -27,9 +27,6 @@ f.close()
 while True:
     print("enter exit for exit in name input")
     name = input("Enter your name: ")
-    if (name == 'exit' or branch == 'exit' or roll_no == 'exit'):
-        print("Exiting...")
-        break
     branch = input("Enter your branch: ")
     roll_no = input("Enter your roll no: ") 
     data = [f"Name: {name}\n", f"Branch: {branch}\n", f"Roll No: {roll_no}\n"]
