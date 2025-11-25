@@ -1,0 +1,8 @@
+f=open("text_file.txt","w")
+print("File name:",f.name)
+print("File mode:",f.mode)
+print("File readable:",f.readable())
+print("File closed:",f.closed)
+f.close()   
+print("File closed after closing:",f.closed)
+print(f.seekable())
